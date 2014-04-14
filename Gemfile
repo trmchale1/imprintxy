@@ -3,8 +3,10 @@ ruby '2.1.1'
 gem 'rails', '4.1.0'
 group :development, :test do 
 	gem 'sqlite3'
-
+	gem 'rspec-rails'
 end
+
+
 group :production do
 	gem 'pg'
 	gem 'rails_12factor'
